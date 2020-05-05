@@ -104,6 +104,7 @@ void MainWindow::onClickedChineseToCodeButton()
 void MainWindow::onClickedClearButton()
 {
     m_chineseEdit->clear();
+    m_unicodeEdit->clear();
     m_utf8Edit->clear();
     m_gbkEdit->clear();
 }
